@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="Role Group Detail">
+    <sch:name>Role Group Detail</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Detail</sch:pageType>
+    <sch:description></sch:description>
+    <sch:clientSideController></sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">SecurityRoleGroup</sch:objectType>
+    <sch:fields>
+        <sch:BmfPageField>
+            <sch:name>UnitNumber</sch:name>
+            <sch:seqNumber>100</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Unit Number</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>DataAccessGroupId</sch:name>
+            <sch:seqNumber>200</sch:seqNumber>
+            <sch:fieldType>ObjectSelector</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType>DataAccessGroup</sch:refTargetType>
+            <sch:label>Group Name</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>EffectiveDate</sch:name>
+            <sch:seqNumber>800</sch:seqNumber>
+            <sch:fieldType>Date</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Effective Date</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>ExpirationDate</sch:name>
+            <sch:seqNumber>900</sch:seqNumber>
+            <sch:fieldType>Date</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Expiration Date</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+    </sch:fields>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons/>
+</sch:PageDefinition>

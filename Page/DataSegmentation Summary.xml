@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="DataSegmentation Summary">
+    <sch:name>DataSegmentation Summary</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Summary</sch:pageType>
+    <sch:description></sch:description>
+    <sch:clientSideController></sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">DataSegmentation</sch:objectType>
+    <sch:fields>
+        <sch:BmfPageField>
+            <sch:name>UnitNumber</sch:name>
+            <sch:seqNumber>1150</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Unit Number</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>TableName</sch:name>
+            <sch:seqNumber>1200</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Table Name</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>ColumnName</sch:name>
+            <sch:seqNumber>1300</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Column Name</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Comparator</sch:name>
+            <sch:seqNumber>1350</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Comparator</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Value</sch:name>
+            <sch:seqNumber>1450</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Value</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+    </sch:fields>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons/>
+</sch:PageDefinition>

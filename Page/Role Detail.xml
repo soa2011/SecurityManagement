@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="Role Detail">
+    <sch:name>Role Detail</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Detail</sch:pageType>
+    <sch:description></sch:description>
+    <sch:clientSideController></sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">SecurityRole</sch:objectType>
+    <sch:fields>
+        <sch:BmfPageField>
+            <sch:name>Name</sch:name>
+            <sch:seqNumber>100</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Role Name</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Code</sch:name>
+            <sch:seqNumber>150</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Code</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Description</sch:name>
+            <sch:seqNumber>200</sch:seqNumber>
+            <sch:fieldType>TextArea</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Description</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>RoleID</sch:name>
+            <sch:seqNumber>300</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Role ID</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+    </sch:fields>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons/>
+</sch:PageDefinition>

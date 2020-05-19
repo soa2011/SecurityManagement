@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14339632" name="SecurityAuthType">
+    <sch:name>SecurityAuthType</sch:name>
+    <sch:domainType>LIST_OF_VALUES</sch:domainType>
+    <sch:description></sch:description>
+    <sch:domainEntries>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>1</sch:seqNumber>
+            <sch:displayValue>Line of Business</sch:displayValue>
+            <sch:dataValue>Line of Business</sch:dataValue>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>2</sch:seqNumber>
+            <sch:displayValue>Premium</sch:displayValue>
+            <sch:dataValue>Premium</sch:dataValue>
+        </sch:BmfDomainEntry>
+    </sch:domainEntries>
+</sch:DomainTable>

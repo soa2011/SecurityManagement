@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="Transaction Common Page">
+    <sch:name>Transaction Common Page</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Detail</sch:pageType>
+    <sch:description></sch:description>
+    <sch:clientSideController></sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">SecurityTransaction</sch:objectType>
+    <sch:fields>
+        <sch:BmfPageField>
+            <sch:name>Reason</sch:name>
+            <sch:seqNumber>400</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Reason</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>EffectiveDate</sch:name>
+            <sch:seqNumber>400</sch:seqNumber>
+            <sch:fieldType>Date</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Effective Date</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+    </sch:fields>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons/>
+</sch:PageDefinition>

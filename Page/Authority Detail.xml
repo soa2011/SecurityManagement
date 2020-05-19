@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="Authority Detail">
+    <sch:name>Authority Detail</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Detail</sch:pageType>
+    <sch:description></sch:description>
+    <sch:clientSideController></sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">SecurityAuthority</sch:objectType>
+    <sch:fields>
+        <sch:BmfPageField>
+            <sch:name>UnitNumber</sch:name>
+            <sch:seqNumber>100</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Unit Number</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Name</sch:name>
+            <sch:seqNumber>200</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Name</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Description</sch:name>
+            <sch:seqNumber>300</sch:seqNumber>
+            <sch:fieldType>TextArea</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Description</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Type</sch:name>
+            <sch:seqNumber>400</sch:seqNumber>
+            <sch:fieldType>Select</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Type</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName>SecurityAuthType</sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Value</sch:name>
+            <sch:seqNumber>500</sch:seqNumber>
+            <sch:fieldType>Select</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Value</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName>LineOfBusiness</sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>RangeMinimum</sch:name>
+            <sch:seqNumber>600</sch:seqNumber>
+            <sch:fieldType>Integer</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Range Minimum</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>RangeMaximum</sch:name>
+            <sch:seqNumber>700</sch:seqNumber>
+            <sch:fieldType>Integer</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Range Maximum</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+    </sch:fields>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons/>
+</sch:PageDefinition>

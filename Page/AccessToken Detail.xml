@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="AccessToken Detail">
+    <sch:name>AccessToken Detail</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Detail</sch:pageType>
+    <sch:description></sch:description>
+    <sch:clientSideController></sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">AccessToken</sch:objectType>
+    <sch:fields>
+        <sch:BmfPageField>
+            <sch:name>UserId</sch:name>
+            <sch:seqNumber>1500</sch:seqNumber>
+            <sch:fieldType>ObjectSelector</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType>ItxUser</sch:refTargetType>
+            <sch:label>UserId</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>IssuedAt</sch:name>
+            <sch:seqNumber>1600</sch:seqNumber>
+            <sch:fieldType>DateTime</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>IssuedAt</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>ExpirationTime</sch:name>
+            <sch:seqNumber>1650</sch:seqNumber>
+            <sch:fieldType>DateTime</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>ExpirationTime</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>AccessToken</sch:name>
+            <sch:seqNumber>1700</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>AccessToken</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Status</sch:name>
+            <sch:seqNumber>1800</sch:seqNumber>
+            <sch:fieldType>Select</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Status</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName>TokenStatus</sch:domainName>
+        </sch:BmfPageField>
+    </sch:fields>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons/>
+</sch:PageDefinition>

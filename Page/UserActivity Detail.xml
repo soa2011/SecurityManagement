@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="UserActivity Detail">
+    <sch:name>UserActivity Detail</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Detail</sch:pageType>
+    <sch:description></sch:description>
+    <sch:clientSideController></sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">UserActivity</sch:objectType>
+    <sch:fields>
+        <sch:BmfPageField>
+            <sch:name>UserId</sch:name>
+            <sch:seqNumber>100</sch:seqNumber>
+            <sch:fieldType>ObjectSelector</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType>ItxUser</sch:refTargetType>
+            <sch:label>UserId</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>FirstInvestPopTime</sch:name>
+            <sch:seqNumber>200</sch:seqNumber>
+            <sch:fieldType>DateTime</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>首次投资弹窗时间</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+    </sch:fields>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons/>
+</sch:PageDefinition>

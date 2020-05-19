@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14339660" name="PeriodUnit">
+    <sch:name>PeriodUnit</sch:name>
+    <sch:domainType>LIST_OF_VALUES</sch:domainType>
+    <sch:description></sch:description>
+    <sch:domainEntries>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>1</sch:seqNumber>
+            <sch:displayValue>Day</sch:displayValue>
+            <sch:dataValue>D</sch:dataValue>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>2</sch:seqNumber>
+            <sch:displayValue>Month</sch:displayValue>
+            <sch:dataValue>M</sch:dataValue>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>3</sch:seqNumber>
+            <sch:displayValue>Year</sch:displayValue>
+            <sch:dataValue>Y</sch:dataValue>
+        </sch:BmfDomainEntry>
+    </sch:domainEntries>
+</sch:DomainTable>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="User Authority Summary">
+    <sch:name>User Authority Summary</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Summary</sch:pageType>
+    <sch:description></sch:description>
+    <sch:clientSideController></sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">SecurityUserAuthority</sch:objectType>
+    <sch:fields>
+        <sch:BmfPageField>
+            <sch:name>UnitNumber</sch:name>
+            <sch:seqNumber>2550</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Expiration Date</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Authority</sch:name>
+            <sch:seqNumber>2600</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Authority</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>EffectiveDate</sch:name>
+            <sch:seqNumber>2700</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Effective Date</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>ExpirationDate</sch:name>
+            <sch:seqNumber>2750</sch:seqNumber>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Expiration Date</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+    </sch:fields>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons/>
+</sch:PageDefinition>

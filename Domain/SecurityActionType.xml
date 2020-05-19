@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14339676" name="SecurityActionType">
+    <sch:name>SecurityActionType</sch:name>
+    <sch:domainType>LIST_OF_VALUES</sch:domainType>
+    <sch:description></sch:description>
+    <sch:domainEntries>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>1</sch:seqNumber>
+            <sch:displayValue>View</sch:displayValue>
+            <sch:dataValue>View</sch:dataValue>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>2</sch:seqNumber>
+            <sch:displayValue>Create</sch:displayValue>
+            <sch:dataValue>Create</sch:dataValue>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>3</sch:seqNumber>
+            <sch:displayValue>Update</sch:displayValue>
+            <sch:dataValue>Update</sch:dataValue>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>4</sch:seqNumber>
+            <sch:displayValue>Delete</sch:displayValue>
+            <sch:dataValue>Delete</sch:dataValue>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>5</sch:seqNumber>
+            <sch:displayValue>Invoke</sch:displayValue>
+            <sch:dataValue>Invoke</sch:dataValue>
+        </sch:BmfDomainEntry>
+    </sch:domainEntries>
+</sch:DomainTable>
