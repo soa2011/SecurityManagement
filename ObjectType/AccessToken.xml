@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14338816" name="AccessToken">
+<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14344960" name="AccessToken">
     <sch:name>AccessToken</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>

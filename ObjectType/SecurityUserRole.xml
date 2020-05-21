@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14338712" name="SecurityUserRole">
+<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14344856" name="SecurityUserRole">
     <sch:name>SecurityUserRole</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>

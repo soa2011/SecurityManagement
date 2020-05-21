@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14338776" name="SecurityResource">
+<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14344920" name="SecurityResource">
     <sch:name>SecurityResource</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>

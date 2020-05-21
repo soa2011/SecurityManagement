@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14339612" name="UserType">
+<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14345756" name="UserType">
     <sch:name>UserType</sch:name>
     <sch:domainType>LIST_OF_VALUES</sch:domainType>
     <sch:description></sch:description>

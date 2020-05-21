@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14339680" name="SecurityResourceType">
+<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14345824" name="SecurityResourceType">
     <sch:name>SecurityResourceType</sch:name>
     <sch:domainType>LIST_OF_VALUES</sch:domainType>
     <sch:description></sch:description>

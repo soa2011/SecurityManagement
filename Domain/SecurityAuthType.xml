@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14339632" name="SecurityAuthType">
+<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14345776" name="SecurityAuthType">
     <sch:name>SecurityAuthType</sch:name>
     <sch:domainType>LIST_OF_VALUES</sch:domainType>
     <sch:description></sch:description>
