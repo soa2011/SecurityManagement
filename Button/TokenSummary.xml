@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Button xmlns:sch="http://aiaf.com/schemas" name="TokenSummary">
+    <sch:seqIndex>13</sch:seqIndex>
+    <sch:name>TokenSummary</sch:name>
+    <sch:label>Token Summary</sch:label>
+    <sch:behavior>ExecuteJavaScript</sch:behavior>
+    <sch:bmfTransactionName></sch:bmfTransactionName>
+    <sch:content>viewTokenSummary(summaryTable)</sch:content>
+    <sch:appliesTo></sch:appliesTo>
+    <sch:securityToken></sch:securityToken>
+    <sch:description></sch:description>
+</sch:Button>
