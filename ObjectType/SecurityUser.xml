@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14344832" name="SecurityUser">
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="SecurityUser">
     <sch:name>SecurityUser</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>
     <sch:parentTypeName></sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
+    <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
     <sch:description></sch:description>
     <sch:bmfRelationships>
@@ -59,17 +60,6 @@
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
             <sch:relatedObjectType>Tenant</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-        <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>InternalOrganizationId</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>InternalOrganization</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -137,6 +127,20 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>Encrypted password</sch:description>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>InternalOrganizationId</sch:name>
+            <sch:dataType>Long</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Status</sch:name>

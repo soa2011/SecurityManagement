@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14344920" name="SecurityResource">
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="SecurityResource">
     <sch:name>SecurityResource</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>
     <sch:parentTypeName></sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
+    <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
     <sch:description></sch:description>
     <sch:bmfRelationships/>

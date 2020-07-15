@@ -1,33 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14345824" name="SecurityResourceType">
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="SecurityResourceType">
     <sch:name>SecurityResourceType</sch:name>
     <sch:domainType>LIST_OF_VALUES</sch:domainType>
     <sch:description></sch:description>
+    <sch:domainKeys/>
     <sch:domainEntries>
         <sch:BmfDomainEntry>
             <sch:seqNumber>1</sch:seqNumber>
             <sch:displayValue>Page</sch:displayValue>
             <sch:dataValue>Page</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>2</sch:seqNumber>
             <sch:displayValue>PageFlow</sch:displayValue>
             <sch:dataValue>PageFlow</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>3</sch:seqNumber>
             <sch:displayValue>Button</sch:displayValue>
             <sch:dataValue>Button</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>4</sch:seqNumber>
             <sch:displayValue>Field</sch:displayValue>
             <sch:dataValue>Field</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>5</sch:seqNumber>
             <sch:displayValue>ObjectType</sch:displayValue>
             <sch:dataValue>ObjectType</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
     </sch:domainEntries>
 </sch:DomainTable>

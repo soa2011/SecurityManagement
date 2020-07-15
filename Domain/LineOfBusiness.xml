@@ -1,78 +1,93 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14345780" name="LineOfBusiness">
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="LineOfBusiness">
     <sch:name>LineOfBusiness</sch:name>
     <sch:domainType>LIST_OF_VALUES</sch:domainType>
     <sch:description></sch:description>
+    <sch:domainKeys/>
     <sch:domainEntries>
         <sch:BmfDomainEntry>
             <sch:seqNumber>1</sch:seqNumber>
             <sch:displayValue>Business Owners Policy</sch:displayValue>
             <sch:dataValue>BOP</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>2</sch:seqNumber>
             <sch:displayValue>General Liability</sch:displayValue>
             <sch:dataValue>General Liability</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>3</sch:seqNumber>
             <sch:displayValue>Commercial Property</sch:displayValue>
             <sch:dataValue>Commercial Property</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>4</sch:seqNumber>
             <sch:displayValue>Commercial Auto</sch:displayValue>
             <sch:dataValue>Commercial Auto</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>5</sch:seqNumber>
             <sch:displayValue>Inland Marine</sch:displayValue>
             <sch:dataValue>Inland Marine</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>6</sch:seqNumber>
             <sch:displayValue>Crime and Fidelity</sch:displayValue>
             <sch:dataValue>Crime and Fidelity</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>7</sch:seqNumber>
             <sch:displayValue>Commercial Umbrella</sch:displayValue>
             <sch:dataValue>Commercial Umbrella</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>8</sch:seqNumber>
             <sch:displayValue>Commercial Package Policy</sch:displayValue>
             <sch:dataValue>Commercial Package Policy</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>9</sch:seqNumber>
             <sch:displayValue>Workers Compensation</sch:displayValue>
             <sch:dataValue>WC</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>10</sch:seqNumber>
             <sch:displayValue>Personal Auto</sch:displayValue>
             <sch:dataValue>Personal Auto</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>11</sch:seqNumber>
             <sch:displayValue>Homeowners</sch:displayValue>
             <sch:dataValue>Homeowners</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>12</sch:seqNumber>
             <sch:displayValue>Personal Watercraft</sch:displayValue>
             <sch:dataValue>Personal Watercraft</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>13</sch:seqNumber>
             <sch:displayValue>Medical Professional Liability</sch:displayValue>
             <sch:dataValue>MPL</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>14</sch:seqNumber>
             <sch:displayValue>Hospital Professional Liability</sch:displayValue>
             <sch:dataValue>HPL</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
     </sch:domainEntries>
 </sch:DomainTable>

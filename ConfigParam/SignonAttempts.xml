@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:ConfigParam xmlns:sch="http://Baf.com/schemas" name="SignonAttempts">
+    <sch:seqIndex>2</sch:seqIndex>
+    <sch:name>SignonAttempts</sch:name>
+    <sch:paramValue>3</sch:paramValue>
+    <sch:category>Security</sch:category>
+    <sch:subCategory>Signon</sch:subCategory>
+    <sch:dataType>Integer</sch:dataType>
+    <sch:length>0</sch:length>
+    <sch:scale>0</sch:scale>
+    <sch:defaultValue>3</sch:defaultValue>
+    <sch:description></sch:description>
+</sch:ConfigParam>

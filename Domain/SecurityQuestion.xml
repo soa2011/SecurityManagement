@@ -1,33 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14345796" name="SecurityQuestion">
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="SecurityQuestion">
     <sch:name>SecurityQuestion</sch:name>
     <sch:domainType>LIST_OF_VALUES</sch:domainType>
     <sch:description></sch:description>
+    <sch:domainKeys/>
     <sch:domainEntries>
         <sch:BmfDomainEntry>
             <sch:seqNumber>1</sch:seqNumber>
             <sch:displayValue>When is your birthday?</sch:displayValue>
             <sch:dataValue>Q1</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>2</sch:seqNumber>
             <sch:displayValue>Where is your home town?</sch:displayValue>
             <sch:dataValue>Q2</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>3</sch:seqNumber>
             <sch:displayValue>Where is your parent's home town?</sch:displayValue>
             <sch:dataValue>Q3</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>4</sch:seqNumber>
             <sch:displayValue>What is your favorite color?</sch:displayValue>
             <sch:dataValue>Q4</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>5</sch:seqNumber>
             <sch:displayValue>What is your favorite sports?</sch:displayValue>
             <sch:dataValue>Q5</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
     </sch:domainEntries>
 </sch:DomainTable>
