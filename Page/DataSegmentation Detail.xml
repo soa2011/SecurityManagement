@@ -284,12 +284,12 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Checkbox</sch:fieldType>
+            <sch:fieldType>Select</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Enabled</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName></sch:domainName>
+            <sch:domainName>YesNo</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -327,6 +327,7 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:bmfDomain isRef="true">YesNo</sch:bmfDomain>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>

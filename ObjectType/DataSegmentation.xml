@@ -84,7 +84,7 @@
         <sch:BmfObjectField>
             <sch:name>Enabled</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
+            <sch:enumName>YesNo</sch:enumName>
             <sch:length>128</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
