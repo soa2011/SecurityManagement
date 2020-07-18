@@ -2,7 +2,7 @@
 <sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="SecurityUser">
     <sch:name>SecurityUser</sch:name>
     <sch:tableType>System</sch:tableType>
-    <sch:archetype>NORMAL</sch:archetype>
+    <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName></sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
@@ -437,7 +437,7 @@
             <sch:description>User Nick Name</sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>UserNameExternal</sch:name>
+            <sch:name>ExternalUid</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>64</sch:length>
@@ -465,7 +465,7 @@
             <sch:description>Last Login Time</sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>ClientGUID</sch:name>
+            <sch:name>ClientRefId</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>64</sch:length>
