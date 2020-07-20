@@ -178,7 +178,7 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>TokenID</sch:name>
+            <sch:name>AggrModelId</sch:name>
             <sch:seqNumber>300</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
@@ -186,7 +186,7 @@
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Id</sch:label>
+            <sch:label>AggrModelId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

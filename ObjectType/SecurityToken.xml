@@ -21,6 +21,17 @@
             <sch:upperBound>-1</sch:upperBound>
             <sch:containment>false</sch:containment>
         </sch:BmfObjectRelationship>
+        <sch:BmfObjectRelationship>
+            <sch:type>REF_TO_ONE</sch:type>
+            <sch:name>AggrModelId</sch:name>
+            <sch:displayName></sch:displayName>
+            <sch:description></sch:description>
+            <sch:relatedObjectType>AggrModelDefinition</sch:relatedObjectType>
+            <sch:joinField></sch:joinField>
+            <sch:lowerBound>0</sch:lowerBound>
+            <sch:upperBound>1</sch:upperBound>
+            <sch:containment>false</sch:containment>
+        </sch:BmfObjectRelationship>
     </sch:bmfRelationships>
     <sch:bmfFields>
         <sch:BmfObjectField>
@@ -64,20 +75,6 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>Token Description</sch:description>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>TokenID</sch:name>
-            <sch:dataType>Sequence</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length></sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>true</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description>Token Unique ID</sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>CreatedBy</sch:name>
