@@ -35,7 +35,7 @@
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>SecurityResource</sch:refTargetType>
+            <sch:refTargetType>SecurityToken</sch:refTargetType>
             <sch:label>ResourceId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
