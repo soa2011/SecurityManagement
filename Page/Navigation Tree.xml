@@ -282,28 +282,6 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>DataSegmentation</sch:tableName>
-            <sch:type>Collection</sch:type>
-            <sch:seqIndex>1000</sch:seqIndex>
-            <sch:format>Data Segmentations(%s)</sch:format>
-            <sch:columns>#count</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>DataSegmentation</sch:tableName>
-            <sch:type>Item</sch:type>
-            <sch:seqIndex>1100</sch:seqIndex>
-            <sch:format>%s</sch:format>
-            <sch:columns>TableName</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
             <sch:tableName>SecurityPasswordRule</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1600</sch:seqIndex>
