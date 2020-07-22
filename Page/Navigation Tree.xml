@@ -62,28 +62,6 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>SecurityUserGroup</sch:tableName>
-            <sch:type>Collection</sch:type>
-            <sch:seqIndex>130</sch:seqIndex>
-            <sch:format>UserGroups(%s)</sch:format>
-            <sch:columns>#count</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>SecurityUserGroup</sch:tableName>
-            <sch:type>Item</sch:type>
-            <sch:seqIndex>130</sch:seqIndex>
-            <sch:format>%s</sch:format>
-            <sch:columns>DataAccessGroup</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
             <sch:tableName>SecurityUserRole</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>140</sch:seqIndex>
@@ -102,28 +80,6 @@
             <sch:columns>Role</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>SecurityUserToken</sch:tableName>
-            <sch:type>Collection</sch:type>
-            <sch:seqIndex>150</sch:seqIndex>
-            <sch:format>UserTokens(%s)</sch:format>
-            <sch:columns>#count</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>SecurityUserToken</sch:tableName>
-            <sch:type>Item</sch:type>
-            <sch:seqIndex>150</sch:seqIndex>
-            <sch:format>%s</sch:format>
-            <sch:columns>Token</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
@@ -282,28 +238,6 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>SecurityRoleGroup</sch:tableName>
-            <sch:type>Collection</sch:type>
-            <sch:seqIndex>600</sch:seqIndex>
-            <sch:format>RoleGroups(%s)</sch:format>
-            <sch:columns>#count</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>SecurityRoleGroup</sch:tableName>
-            <sch:type>Item</sch:type>
-            <sch:seqIndex>700</sch:seqIndex>
-            <sch:format>%s</sch:format>
-            <sch:columns>DataAccessGroup</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
             <sch:tableName>SecurityRoleInheritance</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>600</sch:seqIndex>
@@ -326,10 +260,10 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>DataAccessGroup</sch:tableName>
+            <sch:tableName>DataSecurityPolicy</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>800</sch:seqIndex>
-            <sch:format>DataAccessGroups(%s)</sch:format>
+            <sch:format>DataSecurityPolicies(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -337,7 +271,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>DataAccessGroup</sch:tableName>
+            <sch:tableName>DataSecurityPolicy</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>900</sch:seqIndex>
             <sch:format>%s %s</sch:format>

@@ -128,15 +128,15 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>DataAccessGroupId</sch:name>
+            <sch:name>DataSecurityPolicyId</sch:name>
             <sch:seqNumber>300</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>DataAccessGroup</sch:refTargetType>
-            <sch:label>DataAccessGroupId</sch:label>
+            <sch:refTargetType>DataSecurityPolicy</sch:refTargetType>
+            <sch:label>DataSecurityPolicyId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

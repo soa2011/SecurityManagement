@@ -23,10 +23,10 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>DataAccessGroupId</sch:name>
+            <sch:name>DataSecurityPolicyId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>DataAccessGroup</sch:relatedObjectType>
+            <sch:relatedObjectType>DataSecurityPolicy</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
