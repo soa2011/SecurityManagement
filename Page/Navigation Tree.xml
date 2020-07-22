@@ -231,7 +231,7 @@
             <sch:type>Item</sch:type>
             <sch:seqIndex>700</sch:seqIndex>
             <sch:format>%s</sch:format>
-            <sch:columns>Token</sch:columns>
+            <sch:columns>TokenId</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>
@@ -275,7 +275,7 @@
             <sch:type>Item</sch:type>
             <sch:seqIndex>900</sch:seqIndex>
             <sch:format>%s %s</sch:format>
-            <sch:columns>Name,Description</sch:columns>
+            <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>
