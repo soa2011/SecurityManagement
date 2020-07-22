@@ -65,7 +65,7 @@
             <sch:modifyResource2></sch:modifyResource2>
             <sch:singleYesIndicator>false</sch:singleYesIndicator>
             <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
-            <sch:constraints>Unique</sch:constraints>
+            <sch:constraints></sch:constraints>
             <sch:description></sch:description>
             <sch:className></sch:className>
             <sch:formatter></sch:formatter>
@@ -78,17 +78,17 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>Description</sch:name>
-            <sch:seqNumber>200</sch:seqNumber>
+            <sch:name>Enabled</sch:name>
+            <sch:seqNumber>150</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>TextArea</sch:fieldType>
+            <sch:fieldType>Select</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Description</sch:label>
+            <sch:label>Enabled</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName></sch:domainName>
+            <sch:domainName>YesNo</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -105,7 +105,7 @@
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
-            <sch:required>false</sch:required>
+            <sch:required>true</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
@@ -126,6 +126,7 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:bmfDomain isRef="true">YesNo</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ObjectType</sch:name>
@@ -329,17 +330,17 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>Enabled</sch:name>
-            <sch:seqNumber>1100</sch:seqNumber>
+            <sch:name>Description</sch:name>
+            <sch:seqNumber>1200</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Select</sch:fieldType>
+            <sch:fieldType>TextArea</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Enabled</sch:label>
+            <sch:label>Description</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>YesNo</sch:domainName>
+            <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -356,7 +357,7 @@
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
-            <sch:required>true</sch:required>
+            <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
@@ -377,7 +378,6 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
-            <sch:bmfDomain isRef="true">YesNo</sch:bmfDomain>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>
