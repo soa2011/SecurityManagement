@@ -36,7 +36,7 @@
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>SecurityRole</sch:refTargetType>
-            <sch:label>Role Name</sch:label>
+            <sch:label>RoleId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

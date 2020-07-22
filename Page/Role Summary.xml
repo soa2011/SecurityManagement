@@ -128,15 +128,15 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>Description</sch:name>
-            <sch:seqNumber>500</sch:seqNumber>
+            <sch:name>Category</sch:name>
+            <sch:seqNumber>600</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Description</sch:label>
+            <sch:label>Category</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -150,10 +150,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
+            <sch:colSpan>1</sch:colSpan>
             <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType>Equal</sch:filterType>
+            <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -178,15 +178,15 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>RoleID</sch:name>
-            <sch:seqNumber>600</sch:seqNumber>
+            <sch:name>Description</sch:name>
+            <sch:seqNumber>900</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Id</sch:label>
+            <sch:label>Description</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -200,10 +200,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
+            <sch:colSpan>0</sch:colSpan>
             <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
