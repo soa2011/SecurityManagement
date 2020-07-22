@@ -150,28 +150,6 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>SecurityAuthority</sch:tableName>
-            <sch:type>Collection</sch:type>
-            <sch:seqIndex>350</sch:seqIndex>
-            <sch:format>Authority(%s)</sch:format>
-            <sch:columns>#count</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>SecurityAuthority</sch:tableName>
-            <sch:type>Item</sch:type>
-            <sch:seqIndex>360</sch:seqIndex>
-            <sch:format>%s %s</sch:format>
-            <sch:columns>Name,Type</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
             <sch:tableName>SecurityRole</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>400</sch:seqIndex>
