@@ -274,7 +274,7 @@
             <sch:tableName>DataSecurityPolicy</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>900</sch:seqIndex>
-            <sch:format>%s %s</sch:format>
+            <sch:format>%s</sch:format>
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
