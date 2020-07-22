@@ -7,8 +7,8 @@
     <sch:domainEntries>
         <sch:BmfDomainEntry>
             <sch:seqNumber>1</sch:seqNumber>
-            <sch:displayValue>View</sch:displayValue>
-            <sch:dataValue>View</sch:dataValue>
+            <sch:displayValue>Read</sch:displayValue>
+            <sch:dataValue>Read</sch:dataValue>
             <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
@@ -31,6 +31,12 @@
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>5</sch:seqNumber>
+            <sch:displayValue>Launch</sch:displayValue>
+            <sch:dataValue>Launch</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>6</sch:seqNumber>
             <sch:displayValue>Invoke</sch:displayValue>
             <sch:dataValue>Invoke</sch:dataValue>
             <sch:keyValues>{}</sch:keyValues>
