@@ -11,6 +11,8 @@
     <sch:versionMode>New Version</sch:versionMode>
     <sch:executionMode>With Transaction</sch:executionMode>
     <sch:pageDefinition>Transaction Common Page</sch:pageDefinition>
+    <sch:targetObjectType>No</sch:targetObjectType>
+    <sch:refreshMode>No</sch:refreshMode>
     <sch:securityToken></sch:securityToken>
     <sch:transType></sch:transType>
     <sch:description></sch:description>
